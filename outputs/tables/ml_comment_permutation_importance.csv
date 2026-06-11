@@ -1,0 +1,14 @@
+﻿task,level,model_name,feature,importance_mean,importance_std
+M1,comment,Logistic Regression,subreddit,0.1758484783089473,0.00467738250322165
+M1,comment,Logistic Regression,dominant_emotion,0.02944812850317466,0.008238791984195665
+M1,comment,Logistic Regression,has_question,0.019387497458610237,0.0027394669644541874
+M1,comment,Logistic Regression,sentiment_valence,0.007704340666374605,0.0016678120923559966
+M1,comment,Logistic Regression,arousal_score,0.006216495159640248,0.007255475601967929
+M1,comment,Logistic Regression,neutral_score,0.004577170339984005,0.001945502140941497
+M1,comment,Logistic Regression,negative_score,0.004356131176021134,0.001860907660977163
+M1,comment,Logistic Regression,has_exclamation,0.0026443366496701967,0.0014496539034159568
+M1,comment,Logistic Regression,topic_id,0.002246343287292951,0.004304182863800592
+M1,comment,Logistic Regression,has_url,-0.000559914367649364,0.0005670774419852502
+M1,comment,Logistic Regression,word_count,-0.0005633112306063573,0.002132793057703536
+M1,comment,Logistic Regression,text_length_chars,-0.0007826514979854954,0.0008342243175488644
+M1,comment,Logistic Regression,emotion_intensity,-0.002832469370286597,0.003021991770521728

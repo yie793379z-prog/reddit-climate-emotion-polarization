@@ -1,0 +1,8 @@
+﻿metric,value
+post_rows,6550.0
+posts_with_nonempty_comments,6550.0
+flattened_comments,32727.0
+flattened_replies,80400.0
+unique_subreddits,8.0
+average_comments_per_post,4.996488549618321
+average_replies_per_comment,2.456687139059492

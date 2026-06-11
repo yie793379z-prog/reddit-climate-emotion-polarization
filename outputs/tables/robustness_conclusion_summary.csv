@@ -1,0 +1,5 @@
+﻿conclusion,evidence,robustness
+评论层高唤醒情绪对高热度预测有稳定贡献,阈值和随机种子检验下评论层模型保持可用预测力。,moderately robust
+帖子层情感冲突指数对高热度预测有贡献,帖子层极化特征组在机器学习和阈值检验中有预测贡献。,moderately robust
+subreddit是最强结构性预测因素,去除subreddit后comment/post AP均下降，帖子层下降更明显。,robust
+结果不只依赖top20 阈值,top10、top20、top25、top30 下模型仍有预测能力。,not solely dependent on top20

@@ -1,0 +1,12 @@
+﻿dominant_topic_id,dominant_topic_label_zh,dominant_topic_label_en,post_count,mean_post_heat_log,mean_engagement_heat,mean_emotion_conflict_index,mean_dominant_emotion_entropy
+0,气候变化综合讨论与全球影响,General Climate Change Discussion and Global Impacts,3274,6.942294533709127,15.975230857476761,0.11914681479375318,0.6752969758843147
+3,太阳能、风能、核电与电网转型,"Solar, Wind, Nuclear Power, and Grid Transition",613,6.145838598431058,13.038801331366015,0.087112867255711,0.5317032387926911
+4,塑料污染、零废弃与循环消费,"Plastic Pollution, Zero Waste, and Circular Consumption",535,7.69425216281188,18.1954295581753,0.12418336594770753,0.7326034703582417
+1,油气能源、煤炭与价格争议,"Oil, Gas, Coal, and Energy Price Debate",380,6.370956645758333,13.795411248653645,0.10171590938505434,0.5695772085845255
+9,好消息、积极评价与解决方案想象,"Good News, Positive Evaluation, and Solution Framing",261,6.597947505845088,14.543681653388212,0.07741086270952578,0.56193871259071
+7,肉类消费、素食主义与饮食转型,"Meat Consumption, Veganism, and Dietary Transition",260,6.95505816632851,16.351990162340066,0.13336515047415612,0.7196386092721205
+6,怀疑、否认与消极态度表达,"Skepticism, Denial, and Negative Personal Attitudes",238,6.6028061398684645,14.612895481113036,0.09254469545210202,0.5784435957986158
+5,化石燃料产业、碳排放与能源转型,"Fossil Fuel Industry, Carbon Emissions, and Energy Transition",222,6.25588557052271,13.348004104363081,0.0755498387873039,0.43568921430061125
+8,行动呼吁、电动车与基础设施建设,"Calls for Action, EVs, and Infrastructure Development",222,6.569587438226104,14.249062111805932,0.08050713935715506,0.5263960846744272
+2,气候历史、冰期与长期变暖尺度,"Climate History, Ice Ages, and Long-Term Warming",217,6.258435030578498,13.590985710859528,0.08698608498804788,0.5334334124046592
+-1,未分配,Unassigned,142,6.828487893427353,14.393992829319188,0.08204757390394143,0.5281397537374587

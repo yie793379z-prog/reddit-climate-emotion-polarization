@@ -1,0 +1,16 @@
+variable_name,level,type,meaning,source,planned_use
+comment_heat_composite,comment,numeric,评论层综合热度，等于comment_upvotes_log + 0.5 * reply_count_log + 0.3 * reply_upvotes_sum_log,comments_with_topics.parquet,评论层因变量或排序变量
+comment_heat_simple,comment,numeric,评论upvotes的log1p转换,comments_with_topics.parquet,评论层替代热度指标
+comment_discussion_heat,comment/post,numeric,评论层表示回复数量与回复upvotes的组合；帖子层表示评论数与回复数的组合,comments_with_topics.parquet / post_level_polarization.parquet,讨论热度指标
+high_heat_comment_top20,comment,binary,comment_heat_composite是否位于评论层前 20%,derived,评论层分类预测标签
+post_heat_log,post,numeric,帖子层总体热度的log1p转换,post_level_polarization.parquet,帖子层主要热度因变量
+engagement_heat,post,numeric,帖子upvotes、评论upvotes与回复upvotes的log组合,post_level_polarization.parquet,帖子层互动热度指标
+high_heat_post_top20,post,binary,post_heat_log是否位于帖子层前 20%,derived,帖子层分类预测标签
+emotion_jsd_polarization,post,numeric,帖子内部评论情绪概率分布的平均pairwise JSD,post_level_polarization.parquet,主要情感极化解释变量
+emotion_conflict_index,post,numeric,negative_share * positive_share * dominant_emotion_entropy,post_level_polarization.parquet,情感冲突解释变量
+high_arousal_share,post,numeric,帖子中高唤醒评论占比,post_level_polarization.parquet,情绪强度解释变量
+negative_share,post,numeric,negative_score > positive_score的评论占比,post_level_polarization.parquet,负向情绪解释变量
+topic_label_zh,comment,category,评论所属主题的中文标签,topic_label_mapping.csv,分组描述、控制变量、可视化
+topic_label_en,comment,category,评论所属主题的英文标签,topic_label_mapping.csv,英文报告和建模解释
+dominant_topic_label_zh,post,category,帖子主导主题的中文标签,topic_label_mapping.csv,帖子层控制变量和分组变量
+dominant_topic_label_en,post,category,帖子主导主题的英文标签,topic_label_mapping.csv,英文报告和建模解释

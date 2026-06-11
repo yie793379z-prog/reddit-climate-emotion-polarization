@@ -1,0 +1,13 @@
+﻿task,level,model_name,feature,importance_mean,importance_std
+M2,post,Random Forest,subreddit,0.5219175136922475,0.014646825054312116
+M2,post,Random Forest,dominant_emotion_entropy,0.017120492781379698,0.010517242921746349
+M2,post,Random Forest,emotion_conflict_index,0.013931754974469246,0.01142107176247189
+M2,post,Random Forest,mean_negative_score,0.00856731521632477,0.00791053956146917
+M2,post,Random Forest,negative_share,0.005337992740778258,0.0031161472252710454
+M2,post,Random Forest,share_replies_more_aroused,0.005176207129495444,0.008103886953750831
+M2,post,Random Forest,mean_arousal_score,0.0027509771073416373,0.006257289479544236
+M2,post,Random Forest,mean_sentiment_valence,0.002555256748774007,0.008299197479533085
+M2,post,Random Forest,share_replies_more_negative,0.0018332186500717162,0.00726522103014259
+M2,post,Random Forest,emotion_jsd_polarization,0.001727824564874289,0.006821741964893967
+M2,post,Random Forest,high_arousal_share,0.0016452621707164772,0.0052506904545196725
+M2,post,Random Forest,dominant_topic_id,-0.0010631445557960778,0.0069829722814761415

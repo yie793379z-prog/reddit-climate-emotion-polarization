@@ -1,0 +1,12 @@
+﻿column_name,dtype,non_null_count,missing_count,missing_rate
+id,str,6550,0,0.0
+post_title,str,6550,0,0.0
+post_author,str,6115,435,0.06641221374045801
+post_body,str,392,6158,0.9401526717557251
+post_url,str,6550,0,0.0
+post_pic,object,1235,5315,0.8114503816793893
+subreddit,str,6550,0,0.0
+post_timestamp,str,6550,0,0.0
+post_upvotes,int32,6550,0,0.0
+post_permalink,str,6550,0,0.0
+comments,object,6550,0,0.0

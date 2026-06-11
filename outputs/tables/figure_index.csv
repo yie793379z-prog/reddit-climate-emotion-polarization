@@ -1,0 +1,21 @@
+﻿figure_id,file_path,title,chart_type
+fig01_subreddit_comment_count,outputs/figures/fig01_subreddit_comment_count.png,Comment Count by Subreddit,horizontal bar chart
+fig02_topic_comment_count,outputs/figures/fig02_topic_comment_count.png,Comment Count by Topic,horizontal bar chart
+fig03_topic_emotion_heatmap,outputs/figures/fig03_topic_emotion_heatmap.png,Average Emotion Scores by Topic,annotated heatmap
+fig04_topic_emotion_profile_radar,outputs/figures/fig04_topic_emotion_profile_radar.png,Emotion Profile Radar for High-Volume Topics,radar chart
+fig05_subreddit_emotion_composition_stacked,outputs/figures/fig05_subreddit_emotion_composition_stacked.png,Emotion Composition by Subreddit,stacked horizontal bar chart
+fig06_topic_heat_conflict_bubble,outputs/figures/fig06_topic_heat_conflict_bubble.png,"Topic Conflict, Heat, and Size",bubble chart
+enhanced_topic_post_heat_lollipop,outputs/figures/enhanced_topic_post_heat_lollipop.png,Average Post Heat by Topic,lollipop plot
+enhanced_topic_emotion_conflict_rank,outputs/figures/enhanced_topic_emotion_conflict_rank.png,Emotion Conflict Index by Topic,ranked lollipop plot
+fig07_emotion_conflict_vs_post_heat,outputs/figures/fig07_emotion_conflict_vs_post_heat.png,Emotion Conflict Index and Post Heat,scatter plot with trend line
+fig08_post_heat_topic_boxplot,outputs/figures/fig08_post_heat_topic_boxplot.png,Post Heat Distribution by Dominant Topic,box plot
+fig09_comment_heat_distribution,outputs/figures/fig09_comment_heat_distribution.png,Distribution of Comment-Level Heat,histogram
+fig10_post_heat_distribution,outputs/figures/fig10_post_heat_distribution.png,Distribution of Post-Level Heat,histogram
+fig11_comment_heat_subreddit_violin,outputs/figures/fig11_comment_heat_subreddit_violin.png,Comment Heat Distribution by Subreddit,violin plot
+fig12_post_correlation_heatmap,outputs/figures/fig12_post_correlation_heatmap.png,"Correlation Matrix of Emotion, Polarization, and Heat Metrics",annotated correlation heatmap
+fig13_comment_level_selected_coefficients,outputs/figures/fig13_comment_level_selected_coefficients.png,Comment-Level Emotion Predictors,coefficient plot
+fig14_post_level_selected_coefficients,outputs/figures/fig14_post_level_selected_coefficients.png,Post-Level Polarization Predictors,coefficient plot
+fig18_ml_comment_permutation_importance,outputs/figures/fig18_ml_comment_permutation_importance.png,Top Predictors of High-Heat Comments,horizontal importance bar chart
+fig19_ml_post_permutation_importance,outputs/figures/fig19_ml_post_permutation_importance.png,Top Predictors of High-Heat Posts,horizontal importance bar chart
+fig23_robustness_threshold_performance,outputs/figures/fig23_robustness_threshold_performance.png,Robustness Across High-Heat Thresholds,line chart
+fig24_robustness_without_subreddit,outputs/figures/fig24_robustness_without_subreddit.png,Effect of Removing Subreddit Features,slope chart

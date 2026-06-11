@@ -1,0 +1,4 @@
+﻿column_name,dtype,non_null_count,missing_count,missing_rate
+post_body,str,392,6158,0.9401526717557251
+post_pic,object,1235,5315,0.8114503816793893
+post_author,str,6115,435,0.06641221374045801
